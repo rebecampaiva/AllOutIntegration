@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllOutIntegration", "AllOutIntegration.csproj", "{A19CE576-244F-4EAB-8435-A3CD220F7742}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A19CE576-244F-4EAB-8435-A3CD220F7742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19CE576-244F-4EAB-8435-A3CD220F7742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19CE576-244F-4EAB-8435-A3CD220F7742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19CE576-244F-4EAB-8435-A3CD220F7742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08053DD9-E18C-4972-990B-124AF4A42477}
+	EndGlobalSection
+EndGlobal

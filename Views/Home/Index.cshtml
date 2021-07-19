@@ -1,0 +1,56 @@
+﻿
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="panel panel-darkblue" style="display:table;width:100%">
+    <div class="panel-heading panel-heading-float pull-left">
+        <h3 class="pull-left" style="margin: 0;">Deelp API</h3>
+
+    </div>
+    <div class="panel-body">
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">English Text:</label>
+            <textarea class="form-control" id="textArea" name="textArea" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Target Language</label>
+            <select class="form-control" id="selectLanguage">
+                <option value="">Select</option>
+                <option value="BG">Bulgarian</option>
+                <option value="CS">Czech</option>
+                <option value="DA">Danish</option>
+                <option value="DE">German</option>
+                <option value="EL">Greek</option>
+                <option value="EN">English</option>
+                <option value="ES">Spanish</option>
+                <option value="ET">Estonian</option>
+                <option value="FI">Finnish</option>
+                <option value="FR">French</option>
+                <option value="HU">Hungarian</option>
+                <option value="IT">Italian</option>
+                <option value="JA">Japanese</option>
+                <option value="LT">Lithuanian</option>
+                <option value="LV">Latvian</option>
+                <option value="NL">Dutch</option>
+                <option value="PL">Polish</option>
+                <option value="PT">Portuguese (all Portuguese varieties mixed)</option>
+                <option value="RO">Romanian</option>
+                <option value="RU">Russian</option>
+                <option value="SK">Slovak</option>
+                <option value="SL">Slovenian</option>
+                <option value="SV">Swedish</option>
+                <option value="ZH">Chinese</option>
+
+            </select>
+        </div>
+        <button type="submit" id="btnTranslate" class="btn btn-primary mb-2">Translate</button>
+
+
+    </div>
+</div>
